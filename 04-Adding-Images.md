@@ -4,7 +4,7 @@ When you know how to [add hyperlinks][previous] to your document, it won't be to
 ## Images
 Here we also have two styles: [inline links](#inline-links) and [reference links](#reference-links). Let's look at both.
 
-<h3 id="inline-links">Inline Links</h3>
+### Inline Links
 To add a new image to the document you will need to start with exclamation mark `!` followed by a pair of square brackets `[]` for `alt` text and pair of parenthesis `()` for image URL (can be either full or relative) and then by an optional title for the image enclosed in quotes:
 ```language-markdown
 ![This is an alt text](https://www.google.com/images/srpr/logo11w.png) "Here is a title for the image"
@@ -16,12 +16,12 @@ Output:
 alt="This is an alt text" title="Here is a title for the image" />
 ```
 
-<div class="note>Keep in mind that <code>alt</code> text is optional, but you will still need to enter <code>[]</code>. Just leave them empty if you don't want to specify <code>alt</code> text.</div>
+Keep in mind that `alt` text is optional, but you will still need to enter `[]`. Just leave them empty if you don't want to specify `alt` text.
 
 Unfortunately, [Markdown][] has one limitation - there is no syntax for specifying the dimensions of the image.
  
-<h3 id="reference-links">Reference Links</h3>
-Reference link solves the same [issue](/ultimate-guide-markdown-working-links#reference-links) as with hyperlinks - prevents image URL duplication across one document and provides easy way to update such URL. Here is an example:
+### Reference Links
+Reference link solves the same [issue](03-Working-With-Links.md#reference-links) as with hyperlinks - prevents image URL duplication across one document and provides easy way to update such URL. Here is an example:
 ```language-markdown
 ![This is an alt text][key]
 [key]: https://www.google.com/images/srpr/logo11w.png "Here is a title for the image"
