@@ -1,7 +1,7 @@
 # Adding Lists
 From ancient times there are two well-known types of lists - bullet points and list with numbers, in other words - [unordered](#unordered-lists) and [ordered](#ordered-lists) lists.
 
-<h2 id="unordered-lists">Unordered Lists</h2>
+## Unordered Lists
 You can make an unordered list by preceding list items with the asterisk character `*`:
 ```markdown
 * Item 1
@@ -43,9 +43,9 @@ Output:
 </ul>
 ```
 
-<div class="note">Keep in mind that you cannot omit space between key character and list item text, it is required by Markdown syntax.</div>
+Keep in mind that you cannot omit space between key character and list item text, it is required by Markdown syntax.
 
-<h2 id="ordered-lists">Ordered Lists</h2>
+## Ordered Lists
 To make an ordered list start with a number followed by a period `.` and space (all characters are mandatory):
 ```markdown
 1. Item 1
