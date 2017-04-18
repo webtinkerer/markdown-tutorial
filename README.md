@@ -3,7 +3,7 @@ Have you ever heard about [Markdown][]? What is this?. A little bit?. Then you a
 
 > «Markdown is intended to be as easy-to-read and easy-to-write as is feasible. Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.» 
 
-With all this said keep in mind that Markdown is not a replacement for *HTML*, its goal is different:
+With all this said keep in mind that Markdown is not a replacement for HTML, its goal is different:
 
 > «The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible.»
 
