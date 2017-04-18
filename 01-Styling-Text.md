@@ -236,5 +236,5 @@ To create second paragraph leave one blank line.</p>
 Next time we will look how to add different lists to our document - [Adding Lists in Markdown][next].
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown "Markdown - Wikipedia"
-[previous]: /ultimate-guide-markdown-introduction "Introduction to Markdown"
-[next]: /ultimate-guide-markdown-adding-lists "Adding Lists in Markdown"
+[previous]: 00-Introduction.md "Introduction to Markdown"
+[next]: 02-Adding-Lists.md "Adding Lists in Markdown"
