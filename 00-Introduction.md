@@ -38,7 +38,7 @@ You can even add link to the [Google](http://www.google.com)!
 ```
 Here is an output:
 ```html
-<p>It is very simple with <сode>Markdown</code> to make text <strong>bold</strong> or <em>italics</em>. 
+<p>It is very simple with <code>Markdown</code> to make text <strong>bold</strong> or <em>italics</em>. 
 You can even add link to the <a href="http://www.google.com">Google</a>!</p>
 ```
 
