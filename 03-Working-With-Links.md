@@ -10,7 +10,7 @@ As you probably know tag `<a>` allows to create a hyperlink to another website w
 
 Let's exam all of them.
 
-<h3 id="inline-links">Inline Links</h3>
+### Inline Links
 To create an inline link, wrap the link text in the square brackets `[]` and the link URL (can be either full or relative) in the parenthesis `()` and enter all this together consecutively:
 ```markdown
 [Google](google.com)
@@ -53,7 +53,7 @@ Output:
 
 But sometimes you need to reference the same website several times in one document. By using inline links, you will need to specify referenced website URL in each of such hyperlinks. If there are only 1-3 duplicated links, it is probably not a big deal. But let's consider that you have 10-20 same links, it will be a lot of duplication in the same document. Or consider another scenario - URL for the specified website is changed from time to time, and you need to update it very often, without tedious text search. In all such cases, usage of inline link won't be the best practice. And here reference link comes to the stage.
 
-<h3 id="reference-links">Reference Links</h3>
+### Reference Links
 This style allows you to associate the link text with some name that is enclosed in the square brackets `[]` and used in place of link URL. To make it works you also need to define this name somewhere in the document, earlier or later (generally in the footer of the document). 
 
 Here are the rules to define a reference link:
@@ -77,7 +77,7 @@ Output:
 <p>Some other text.</p>
 ```
 
-<div class="note">Names themselves may consist of letters, numbers, spaces, or even punctuation marks. They are not case sensitive.</div>
+Names themselves may consist of letters, numbers, spaces, or even punctuation marks. They are not case sensitive.
 
 Using reference link style you can also specify `title` for the link, but this time put it within name definition, just after website URL separated by a space:
 ```markdown
@@ -89,7 +89,7 @@ Output:
 <a href="www.google.com" title="Link to Google">Google</a>
 ```
 
-<h3 id="implicit-links">Implicit Links</h3>
+### Implicit Links
 Implicit links are similar to reference links, with one exception - they just allow you to omit the name of the link. In this case, the link text itself is used as the name of the link. To create an implicit link, just use an empty set of square brackets for link name:
 ```markdown
 [Google][]
