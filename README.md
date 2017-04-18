@@ -111,5 +111,5 @@ Here is a quick reference for Markdown syntax that is described in this tutorial
 [Link]: 03-Working-With-Links.md
 [Automatic Link]: 05-Advanced-Formatting.md#automatic-links
 [Image]: 04-Adding-Images.md
-[Horizontal Rule]: 04-Advanced-Formatting.md#horizontal-rules
+[Horizontal Rule]: 05-Advanced-Formatting.md#horizontal-rules
 [MIT license]: https://en.wikipedia.org/wiki/MIT_License "MIT License - Wikipedia"
