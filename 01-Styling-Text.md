@@ -46,7 +46,7 @@ Output:
 <p>Here we emphasize <strong>word</strong> by underscore <em>characters</em>.</p>
 ```
 
-<div class="note">It is a good practice to choose one set of characters for all levels of emphasizing - either <code>*</code> or <code>_</code> - and use it across all your documents.</div>
+It is a good practice to choose one set of characters for all levels of emphasizing - either `*` or `_` - and use it across all your documents.
 
 ## Paragraphs
 Paragraphs are just one or more lines of consecutive text followed by one or more blank lines. A blank line is an any empty line, with no other characters except one or more spaces or tabs. Here is a simple example:
@@ -94,7 +94,7 @@ To create such headings using Markdown, add one or more hash marks `#` before yo
 ###### Header 6
 ``` 
 
-<div class="note"><p>You can safely omit a space between a sequence of <code>#</code> and a heading text. But keep in mind that Markdown considers all characters after <code>#</code> and until the end of the line as a header text, with one excuse - trailing <code>#</code> characters are skipped. It is made for the cosmetic purpose of somehow «close» header. The «closing» <code>#</code> don't even need to match the number of <code>#</code> used to open the header.</p></div>
+You can safely omit a space between a sequence of `#` and a heading text. But keep in mind that Markdown considers all characters after `#` and until the end of the line as a header text, with one excuse - trailing `#` characters are skipped. It is made for the cosmetic purpose of somehow «close» header. The «closing» `#` don't even need to match the number of `#` used to open the header.
 
 Also, Markdown supports special syntax for headings of level `1` and level `2`. Here it is: 
 ```markdown
@@ -112,10 +112,10 @@ Output:
 ```html
 <h1>Header 1</h1>
 <p>Put one or more '=' characters at the beginning of the next line 
-after header text for level <сode>1</code> heading</p>
+after header text for level <code>1</code> heading</p>
 <h2>Header 2</h2>
 <p>Put one or more '-' characters at the beginning of the next line 
-after header text for level <сode>2</code> heading</p>
+after header text for level <code>2</code> heading</p>
 ```
 
 ### Quotes
@@ -130,7 +130,7 @@ Output:
 </blockquote>
 ```
 
-<div class="note">You don't need to put extra space between <code>></code> and the first letter of the quote, without that space, you will still get a correctly rendered block quote. It is used only for better readability, the same situation as with <code>#</code> marks in headings.</div>
+You don't need to put extra space between `>` and the first letter of the quote, without that space, you will still get a correctly rendered block quote. It is used only for better readability, the same situation as with `#` marks in headings.
 
 To create a multi-line quote just put `>` on each line of your quote text:
 ```markdown
@@ -141,7 +141,7 @@ Output:
 ```html
 <blockquote>
     <p>This a multi-line blockquote.
-    Each line is started with <сode>&gt;</code> character.</p>
+    Each line is started with <code>&gt;</code> character.</p>
 </blockquote>
 ```
 
@@ -154,7 +154,7 @@ Output:
 ```html
 <blockquote>
   <p>This a multi-line blockquote in lazy style.
-  Only first line is started with <сode>&gt;</code> character</p>
+  Only first line is started with <code>&gt;</code> character</p>
 </blockquote>
 ```
 
@@ -199,9 +199,9 @@ You can also nest one quote within another one by adding additional levels of `>
 Output:
 ```html
 <blockquote>
-    <p>This is level <сode>1</code> quote.</p>
+    <p>This is level <code>1</code> quote.</p>
     <blockquote>
-        <p>And this is level <сode>2</code> quote.</p>
+        <p>And this is level <code>2</code> quote.</p>
     </blockquote>
 </blockquote>
 ```
