@@ -26,7 +26,7 @@ You can also specify an entire block of preformatted code, just indent every lin
 Output:
 ```html
 <pre>
-  <сode>console.log('Hello world');</сode>
+  <code>console.log('Hello world');</code>
 </pre>
 ```
 
