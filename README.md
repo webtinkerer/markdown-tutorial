@@ -12,7 +12,7 @@ Markdown is the language for writers and bloggers, who wish and need to write we
 So, let's get started!
 
 ## License
-Copyright (c) 2016 Quteron  
+Copyright (c) 2017 Quteron  
 Licensed under the [MIT license][].
 
 ---
