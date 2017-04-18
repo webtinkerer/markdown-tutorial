@@ -8,38 +8,38 @@ By this time we have already learned major blocks of Markdown - basic [text form
 * [Horizontal Rules](#horizontal-rules)
 * [Automatic Links](#automatic-links)
 
-<h2 id="inline-code">Inline Code</h2>
+## Inline Code
 As you probably noticed I'm using the inline code a lot across this tutorial, you know, it is difficult to write about syntax without code snippets, even tiny ones. How is it done? To format text as code span, wrap it with the backtick quotes (`` ` ``text`` ` ``):
 ```markdown
 The most popular tag in HTML is `div`. Do you know why?
 ```
 Output:
 ```html
-<p>The most popular tag in HTML is <сode>div</code>. Do you know why?</p>
+<p>The most popular tag in HTML is <code>div</code>. Do you know why?</p>
 ```
 
-<h2 id="block-code">Block Code</h2>
+## Block Code
 You can also specify an entire block of preformatted code, just indent every line of the block by at least four spaces or one tab:
 ```markdown
     console.log('Hello world!');
 ```
 Output:
 ```html
-<prе>
+<pre>
   <сode>console.log('Hello world');</сode>
 </pre>
 ```
 
 A code block continues until it reaches a line that is not indented (or the end of the document):
-```language-markdown
+```markdown
     console.log('Hello world!');
     console.log('How are you?');
 This is a paragraph.
 ```
 Output:
 ```html
-<prе>
-    <сode>
+<pre>
+    <code>
         console.log('Hello world!');
         console.log('How are you?');
     </code>
@@ -53,8 +53,8 @@ Also, regular Markdown syntax won't be processed within either inline code or co
 ```
 Output:
 ```html
-<prе>
-    <сode>Here is example of *text* formatting by **Markdown**.</code>
+<pre>
+    <code>Here is example of *text* formatting by **Markdown**.</code>
 </pre>
 ```
 
@@ -64,12 +64,12 @@ Keep in mind that any ampersands `&` and angle brackets `<` `>` will be automati
 ```
 Output:
 ```html
-<prе>
-    <сode>Here is an example of escaping &amp; and &lt; characters.</code>
+<pre>
+    <code>Here is an example of escaping &amp; and &lt; characters.</code>
 </pre>
 ```
 
-<h2 id="embedded-html">Embedded HTML</h2>
+## Embedded HTML
 You can safely include arbitrary HTML markup in any Markdown document; it will be parsed as is during converting key elements to HTML tags. The only restriction about HTML syntax Markdown has is related to the block-level HTML elements - `<div>`, `<table>`, `<pre>`, etc. You should separate them from the surrounding content by blank lines, and the start and the end tags of the HTML block should not be indented with extra spaces or tabs. Let's see example:
 ```markdown
 This is a paragraph.
@@ -129,7 +129,7 @@ Output:
 <p>This is a paragraph with <span>&amp; and &lt;</span> that will be escaped.</p>
 ```
 
-<h2 id="escape-characters">Escape Characters</h2>
+## Escape Characters
 Sometimes you need to display Markdown key character as the literal character without any conversion. To achieve it just precede such character with a backslash `\`:
 ```markdown
 Render one asterisk (\*) followed by another asterisk (\*) as is. 
@@ -154,12 +154,12 @@ Here is ``code span with (`)``.
 ```
 Output:
 ```html
-<p>Here is <сode>code span with (`)</code>.</p>
+<p>Here is <code>code span with (`)</code>.</p>
 ```
 
-<h2 id="horizontal-rules">Horizontal Rules</h2>
+## Horizontal Rules
 You can produce a horizontal rule tag `<hr>` by placing three or more hyphens `-`, asterisks `*`, or underscores `_` on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks. Each of the following lines will produce a horizontal rule:
-```language-markdown
+```markdown
 * * *
 
 ---
@@ -173,9 +173,9 @@ Output:
 <hr>
 ```
 
-<div class="note">Keep in mind that if will you use hyphens <code>-</code> to create a horizontal line, you will need to leave one blank line above them. Otherwise, Markdown will consider your hyphens <code>-</code> as a part of the <a href="/ultimate-guide-markdown-styling-text#headings">header level 2</a> syntax.</div>
+Keep in mind that if will you use hyphens `-` to create a horizontal line, you will need to leave one blank line above them. Otherwise, Markdown will consider your hyphens `-` as a part of the [header level 2](01-Styling-Text.md#headings) syntax.
 
-<h2 id="automatic-links">Automatic Links</h2>
+## Automatic Links
 Markdown also supports a shortcut style for creating «automatic» links for URL - simply surround the URL with angle brackets `<` `>`. It will mean that you wish to show the actual text of an URL or email address and also have it be a clickable link, here is an example:
 ```markdown
 <http://google.com>
@@ -188,7 +188,7 @@ Output:
 Well, by this moment we are done with so-called «vanilla» Markdown syntax, next time we look at so-called [flavored Markdown][next], different Markdown dialects.
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown "Markdown - Wikipedia"
-[previous]: /ultimate-guide-markdown-adding-images "Adding Images in Markdown"
+[previous]: 04-Adding-Images.md "Adding Images in Markdown"
 [next]: 06-Flavored-Markdown.mdd "Flavored Markdown"
 [text formatting]: 01-Styling-Text.md "Styling Text in Markdown"
 [lists]: 02-Adding-Lists.md "Adding Lists in Markdown"
