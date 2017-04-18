@@ -189,7 +189,7 @@ Well, by this moment we are done with so-called «vanilla» Markdown syntax, nex
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown "Markdown - Wikipedia"
 [previous]: 04-Adding-Images.md "Adding Images in Markdown"
-[next]: 06-Flavored-Markdown.mdd "Flavored Markdown"
+[next]: 06-Flavored-Markdown.md "Flavored Markdown"
 [text formatting]: 01-Styling-Text.md "Styling Text in Markdown"
 [lists]: 02-Adding-Lists.md "Adding Lists in Markdown"
 [links]: 03-Working-With-Links.md "Working With Links in Markdown"
