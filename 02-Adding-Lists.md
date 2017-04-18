@@ -140,8 +140,8 @@ Output:
 ```html
 <p>This is paragraph before list. </p>
 <ul>
-   <li>number, </li>
-   <li>period <сode>.</code> and </li>
+   <li>number,</li>
+   <li>period <code>.</code> and </li>
    <li>space.</li>
 </ul>
 <p>This is a paragraph after list.</p>
@@ -174,7 +174,7 @@ Output:
 ```html
 <ol>
    <li><p>number,</p></li>
-   <li><p>period <сode>.</code> and</p></li>
+   <li><p>period <code>.</code> and</p></li>
    <li><p>space.</p></li>
 </ol>
 ``` 
