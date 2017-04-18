@@ -33,11 +33,13 @@ This tutorial will guide you through the basics of using Markdown, as well as th
 
 Now let's look at Markdown in action, our first document written using this syntax:
 ```markdown
-It is very simple with `Markdown` to make text **bold** or *italics*. You can even add link to the [Google](http://www.google.com)!
+It is very simple with `Markdown` to make text **bold** or *italics*. 
+You can even add link to the [Google](http://www.google.com)!
 ```
 Here is an output:
 ```html
-<p>It is very simple with <сode>Markdown</code> to make text <strong>bold</strong> or <em>italics</em>. You can even add link to the <a href="http://www.google.com">Google</a>!</p>
+<p>It is very simple with <сode>Markdown</code> to make text <strong>bold</strong> or <em>italics</em>. 
+You can even add link to the <a href="http://www.google.com">Google</a>!</p>
 ```
 
 If you are impressed with its power, let's jump to the next topic - [Styling Text in Markdown][next].
